@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-mix": "^6",
+        "lodash": "^4.17.19",
+        "vue": "^2",
+        "vue-loader": "^15",
+        "vue-template-compiler": "^2"
+    },
+    "dependencies": {
+        "laravel-vue-pagination": "2.3.1",
+        "sweetalert2": "^11",
+        "vue-notification": "^1",
+        "vue-pagination-2": "^3",
+        "vue2-dropzone": "^3"
+    }
+}
